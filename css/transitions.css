@@ -1,0 +1,70 @@
+#ex01 .box:hover {
+  background: var(--midnight-green);
+}
+
+#ex02 .box {
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+
+#ex02 .box:hover {
+  background: var(--midnight-green);
+}
+
+#ex03 .box {
+  transition-property: background;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+}
+
+#ex03 .box:hover {
+  background: var(--midnight-green);
+}
+
+#ex04 .box {
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+
+#ex04 .box:hover {
+  background: var(--midnight-green);
+  color: var(--beige);
+}
+
+#ex05 .box {
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
+#ex05 .box:hover {
+  background: var(--midnight-green);
+  color: var(--beige);
+}
+
+#ex06 .box {
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+
+#ex06 .wrapper .box:hover {
+  background: var(--midnight-green);
+}
+
+#ex07 .box {
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+
+#ex07 .wrapper {
+  transition-property: background;
+  transition-duration: 0.5s;
+}
+
+#ex07 .box:hover {
+  background: var(--beige);
+  color: var(--midnight-green);
+}
+
+#ex07 .wrapper:hover {
+  background: var(--midnight-green);
+}
